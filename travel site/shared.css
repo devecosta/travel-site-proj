@@ -9,6 +9,9 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 15px 60px;
+    position: absolute;
+    box-sizing: border-box;
+    width: 100%;
 }
 
 #page-log a {
@@ -36,7 +39,20 @@ header ul {
 
 header li {
     padding: 20px;
-    text-align: center;
+}
+
+header li a {
+    color: rgb(255,251,0);
+    text-decoration: none;
+    font-size: 20px;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+header li a:hover {
+    background-color: rgb(255,238,0);
+    color: black;
+    border-radius: 6px;
 }
 
 
