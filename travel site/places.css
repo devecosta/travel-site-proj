@@ -1,0 +1,66 @@
+body {
+    background: linear-gradient(30deg, rgb(77,77,77), rgb(58,58,58));
+    color: rgb(58,58,58);
+}
+
+header {
+    position: static;
+
+}
+
+#page-log a {
+    color: rgb(22, 211, 228);
+}
+
+header li a {
+    color: rgb(22, 211, 228);
+}
+
+main ul {
+    width: 800px;
+    margin: 0 auto;
+}
+
+main li {
+    display: flex;
+    background-color: white;
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+main li h2 {
+    margin: 0;
+}
+
+main li img {
+    width: 300px;
+    height: 280px;
+    object-fit: cover;
+}
+
+.item-content {
+    padding: 24px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.item-content p {
+    margin-top: 0;
+}
+
+.actions {
+    text-align: right;
+}
+
+.actions a {
+    text-decoration: none;
+    color: rgb(22, 211, 228);
+    border-radius: 5px;
+    padding: 6px 10px;
+}
+
+.actions a:hover {
+    background-color: rgb(235 , 253, 255);
+}
