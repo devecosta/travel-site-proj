@@ -9,11 +9,11 @@ header {
 }
 
 #page-log a {
-    color: rgb(122, 230, 240);
+    color: rgb(183 , 230, 235);
 }
 
 header li a {
-    color: rgb(122, 230, 240);
+    color: rgb(183 , 230, 235);
 }
 
 header ul a:hover {
@@ -71,6 +71,7 @@ main li img {
 
 .actions a:hover {
     background-color: rgb(235 , 253, 255);
+    color: rgb(58,58,58);
 }
 
 li:nth-of-type(3) {
